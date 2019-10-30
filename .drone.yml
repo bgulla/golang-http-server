@@ -2,8 +2,9 @@
 pipeline:
   build:
     image: plugins/docker
-    repo: harbor.lol/dev/http-server
-    registry: harbor.lol
+    repo: bgulla/drone-http-test
+#    repo: harbor.lol/dev/http-server
+#    registry: harbor.lol
     tags: 
       - 1.0.0
       - 1.0
