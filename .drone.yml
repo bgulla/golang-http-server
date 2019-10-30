@@ -1,3 +1,4 @@
+#test
 pipeline:
   build:
     image: plugins/docker
