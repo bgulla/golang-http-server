@@ -5,7 +5,7 @@ pipeline:
     #repo: bgulla/drone-http-test
     repo: harbor.lol/dev/http-server
 #    insecure: true
-    registry: harbor.lol
+    registry: harbor.lol:443
     tags: 
       - 1.0.0
       - 1.0
