@@ -4,8 +4,10 @@ pipeline:
     image: plugins/docker
     #repo: bgulla/drone-http-test
     repo: harbor.lol/dev/http-server
+    registry: harbor-harbor-registry:5000
+    insecure: true
 #    insecure: true
-    registry: harbor.lol:443
+#    registry: harbor.lol:443
     tags: 
       - 1.0.0
       - 1.0
